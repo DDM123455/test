@@ -27,7 +27,6 @@ const Button = styled.button`
   height: 44px;
   background: #e87722;
   border-radius: 4px;
-  font-family: "FWD Circular Viet TT";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -105,7 +104,7 @@ function Nav() {
         <div className="left">
           <DivNav>
             <Allfund>
-              Tất cả các quỹ{" "}
+              Tất cả các quỹ
               <div>
                 <i className="fa-solid fa-caret-down"></i>
               </div>

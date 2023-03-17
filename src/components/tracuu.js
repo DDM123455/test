@@ -1,10 +1,5 @@
 import styled from "styled-components";
 const H3 = styled.h3`
-  @font-face {
-    font-family: "FWD Circular Viet TT";
-    src: url("../../public/fonts/FWDCircularVietTT-Bold");
-  }
-  font-family: "FWD Circular Viet TT";
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -15,7 +10,6 @@ const H3 = styled.h3`
   color: #e87722;
 `;
 const Section = styled.section`
-  font-family: "FWD Circular Viet TT";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
