@@ -12,7 +12,7 @@ import { data1, labels } from "../data/data.js";
 
 import { Line } from "react-chartjs-2";
 import styled from "styled-components";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 ChartJS.register(
   CategoryScale,
@@ -157,8 +157,6 @@ function Chart() {
     // Tăng giá trị của biến index lên 3 để lấy 3 phần tử tiếp theo trong mảng
     index += 2;
   }, 5000);
-
-  var [count, SetCount] = useState(0);
 
   const ref = useRef();
 

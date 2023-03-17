@@ -9,7 +9,6 @@ import {
   Legend,
   BarElement,
 } from "chart.js";
-import { faker } from "@faker-js/faker";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 
 import { Bar, Line } from "react-chartjs-2";
