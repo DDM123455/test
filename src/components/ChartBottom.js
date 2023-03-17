@@ -205,7 +205,7 @@ function ChartBottom() {
         offset: function (value) {
           const dataValue = value.dataset.data[value.dataIndex];
 
-          return dataValue > 0 ? -40 : 0;
+          return dataValue == 25 ? -90 : dataValue >= 70 ? -180 : 0;
         },
         formatter: function (value, context) {
           return value == 0 ? "" : value + "%";
